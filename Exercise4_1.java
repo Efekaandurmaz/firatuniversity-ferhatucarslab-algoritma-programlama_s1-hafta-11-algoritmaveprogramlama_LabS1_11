@@ -1,14 +1,19 @@
-public class Exercise4_1 {
+import java.util.Scanner;
 
-    public static void printAmerican(String day, int date, String month, int year) {
-        // TODO
-    }
-
-    public static void printEuropean(String day, int date, String month, int year) {
-        // TODO
-    }
-
+public class Ornek {
     public static void main(String[] args) {
-        // TODO: test methods
+        Scanner input = new Scanner(System.in);
+
+        int sayi;
+        System.out.print("Bir sayi gir: ");
+        sayi = input.nextInt();
+
+        if(sayi % 2 == 0){
+            System.out.println("Sayi cift");
+        } else {
+            System.out.println("Sayi tek");
+        }
     }
 }
+    
+
