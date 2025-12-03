@@ -11,6 +11,7 @@ public class Exercise4_3 {
         zoop();
         System.out.print("I ");
         baffle();
+        ping();
     }
 
     public static void baffle() {
